@@ -1,0 +1,23 @@
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+/* Universal Settings */
+:root{
+    /* Background Color */
+    --orange-bg-color: rgb(230, 83, 60);
+    --gray-bg-color: rgb(34, 34, 34);
+    --black-bg-color: rgb(0, 0, 0);
+
+    /* Text Color */
+    --primary-text-color: #fff;
+    --secondary-text-color: rgba(255, 255, 255, 0.5);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
