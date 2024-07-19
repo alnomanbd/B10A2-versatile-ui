@@ -294,14 +294,15 @@ body{
 
 /* Run Extra Mile */
 .run-extra-mile{
-    border: 0px solid tomato;
+    border: 1px solid tomato;
     margin-top: 100px;
+    /* height: 371px; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
 }
 .run-extra-mile-content{
     width: 90%;
-    margin: 30px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -321,8 +322,6 @@ body{
     line-height: 24px;
 }
 
-
-
 .right-image{
     width: 366px;
     height: 312px;
@@ -331,4 +330,93 @@ body{
     border-radius: 18px;
     width: 100%;
     height: 100%;
+}
+
+
+/* Footer */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    height: 489px;
+    margin-top: 100px;
+}
+
+.footer-main{
+    border: 0px solid greenyellow;
+    padding-top: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid tomato;
+    margin-top: 66px;
+}
+
+.footer-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    border: 0px solid blue ;
+}
+.footer-left p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer-middle{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-middle li{
+    list-style: none;
+}
+.footer-middle li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-middle h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-right{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-right li{
+    list-style: none;
+}
+.footer-right li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
 }
