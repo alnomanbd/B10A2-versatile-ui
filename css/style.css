@@ -226,15 +226,15 @@ body{
 
 /* Change Your Habit Section Styles Starts From Here */
 .change-your-habit{
-    border: 1px solid tomato;
+    border: 0px solid tomato;
     margin-top: 100px;
 }
 
 .change-your-habit-header{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid tomato;
+    border: 0px solid tomato;
 }
 .change-your-habit-header h1{
     color: rgb(255, 255, 255);
@@ -257,7 +257,7 @@ body{
 }
 
 .habit-image-card{
-    border: 1px solid tomato;
+    border: 0px solid tomato;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -294,36 +294,44 @@ body{
 
 /* Run Extra Mile */
 .run-extra-mile{
-    border: 1px solid tomato;
+    border: 0px solid tomato;
     margin-top: 100px;
     /* height: 371px; */
+    padding: 30px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
 }
 .run-extra-mile-content{
-    width: 90%;
-    margin: 50px auto;
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10%;
 }
 .run-left{
-    width: 49%;
+    width: 45%;
+    border: 0px solid tomato;
 }
 .run-left h1{
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 14px;
 }
 .run-left p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 34px;
 }
-
+.run-right{
+    width: 50%;
+    border: 0px solid tomato;
+}
 .right-image{
-    width: 366px;
+    width: 100%;
     height: 312px;
 }
 .right-image img{
@@ -333,17 +341,209 @@ body{
 }
 
 
+/* Training Exercise Section Styles */
+.training-exercise-section{
+    margin-top: 100px;
+}
+.photo-gallery{
+    border: 0px solid tomato;
+    margin-top: 58px;
+}
+
+.training-exercise-head h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.training-exercise-head p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* .row-1 .image-card:nth-child(1)::before{
+    width: 100%;
+    height: 218px;
+    background: rgba(6, 255, 210, 0.5);
+} */
+
+.row-1, .row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 1rem 0; */
+    /* gap: 0; */
+}
+
+.row-1{
+    grid-template-columns: 0.7fr 1.6fr 0.7fr;
+}
+
+.row-2{
+    grid-template-columns: 1.4fr 0.6fr 1fr;
+    margin-top: -5px;
+}
+
+.image-card img{
+    width: 100%;
+    height: 218px;
+    filter: brightness(60%);
+}
+
+.image-card{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+}
+/* BMI Calculator Section Style */
+.bmi-calculator-section{
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+}
+
+.bmi-main-container{
+    border: 0px solid greenyellow;
+}
+
+.bmi-content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border: 0px solid tomato;
+    /* width: 90%; */
+    /* margin: 50px auto; */
+    padding: 50px 0;
+}
+
+.bmi-head{
+    margin-top: 100px;
+    width: 40%;
+}
+
+.bmi-head h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.bmi-head p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bmi-left{
+    width: 50%;
+}
+
+.bmi-left h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.bmi-left table{
+    border: 1px solid rgba(255, 255, 255, 0.1);    
+    width: 70%;
+}
+
+table tr{
+    border: 1px solid rgba(255, 255, 255, 0.1);    
+}
+
+table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px; 
+}
+
+.bmi-right{
+    width: 50%;
+    border: 0px solid tomato;
+}
+
+.bmi-right h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.bmi-right p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.bmi-right input[type="text"], select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    width: 49%;
+    margin: 5px 0;
+}
+
+.form input[type="text"]:nth-child(2){
+    margin-left: 5px;
+}
+
+.form .left{
+    margin-left: 5px;
+}
+
+/* .bmi-right select .sex{
+    width: 50%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+}
+*/
+.bmi-right .factor{
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    outline: none;
+}
+
+.bmi-right .primary-btn{
+    margin-top: 34px;
+}
 
 /* Meet Our Team */
 .meet-our-team{
     margin-top: 88px;
-    border: 1px solid orange;
+    border: 0px solid orange;
 }
 
 .meet-our-team-head{
     width: 50%;
     margin: 0 auto;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,30 +563,29 @@ body{
 }
 .meet-our-team-gallery{
     width: 100%;
-    height: 604px;
     margin-top: 58px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
 }
 .image-content{
-    border: 1px solid blueviolet;
-    width: 95%;
-    margin: 0 auto;
+    border: 0px solid blueviolet;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: space-evenly;
 }
 .image-box{
-    width: 300px;
+    width: 100%;
     height: 270px;
     border-radius: 18px;
-    border: 1px solid tomato;
-    background: rgba(0, 0, 0, 0.2),url(image);
+    border: 0px solid tomato;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .image-box img{
     width: 100%;
+    height: 100%;
     border-radius: 18px;
 }
 
