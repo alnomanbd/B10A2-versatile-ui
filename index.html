@@ -6,6 +6,7 @@
     <title>Welcome | Versatile UI</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 <body>
     <header class="header-section">
@@ -22,14 +23,19 @@
                     <li><a href="">About</a></li>
                 </ul>
             </div>
+            <div class="ham-burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <!-- Navbar Ends Here -->
 
         <!-- Banner Section Starts From Here -->
         <div class="container banner">
             <div class="banner-left">
-                <h1>Get body in <span>shape</span> & stay healthy</h1>
-                <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="banner-left-text">
+                    <h1>Get body in <span>shape</span> & stay healthy</h1>
+                    <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                </div>
                 <div class="banner-btn">
                     <button class="primary-btn">Join Club Now!</button>
                     <button class="secondary-btn">Download App</button>
@@ -129,29 +135,29 @@
             <div class="training-exercise-gallery">
                 <div class="photo-gallery">
                     <div class="row-1">
-                        <div class="image-card">
+                        <div class="image-card image-bg1">
                             <img src="./images/exercise1.jpg" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
-                        <div class="image-card">
+                        <div class="image-card image-bg2">
                             <img src="./images/exercise2.png" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
-                        <div class="image-card">
+                        <div class="image-card image-bg3">
                             <img src="./images/exercise3.png" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
                     </div>
                     <div class="row-2">
-                        <div class="image-card">
+                        <div class="image-card image-bg4">
                             <img src="./images/exercise4.png" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
-                        <div class="image-card">
+                        <div class="image-card image-bg5">
                             <img src="./images/exercise5.jpg" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
-                        <div class="image-card">
+                        <div class="image-card image-bg6">
                             <img src="./images/exercise6.jpg" alt="">
                             <p class="text">Leg Press: Works the quadriceps and glutes</p>
                         </div>
@@ -173,7 +179,7 @@
                         <h1>BMI Calculator Chart</h1>
                         <table>
                             <tr>
-                                <td>BMI</td><td>Weight Status</td>
+                                <th>BMI</th><th>Weight Status</th>
                             </tr>
                             <tr>
                                 <td>Below 18.5</td><td>Underweight</td>
